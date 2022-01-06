@@ -895,10 +895,6 @@ get: {
   what: "sub desc data del cred stat", // string, space-separated list of parameters to query;
                         // unknown values are ignored; required
 
-
-unread: {
-   ???
-  },
   // Optional parameters for {get what="desc"}
   desc: {
     ims: "2015-10-06T18:07:30.038Z" // timestamp, "if modified since" - return
