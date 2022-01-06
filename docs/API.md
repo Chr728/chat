@@ -892,7 +892,7 @@ Query topic for metadata, such as description or a list of subscribers, or query
 get: {
   id: "1a2b3", // string, client-provided message id, optional
   topic: "grp1XUtEhjv6HND", // string, name of topic to request data from
-  what: "sub desc data del cred unread", // string, space-separated list of parameters to query;
+  what: "sub desc data del cred stat", // string, space-separated list of parameters to query;
                         // unknown values are ignored; required
 
 
